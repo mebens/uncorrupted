@@ -13,6 +13,7 @@ package worlds
     public var index:uint;
     public var width:uint;
     public var height:uint;
+    public var fromIndex:int;
     public var paused:Boolean = false;
     public var fade:Fade;
     public var listeners:Dictionary = new Dictionary;
@@ -47,6 +48,7 @@ package worlds
       var xml:XML = FP.getXML(data);
       width = xml.width;
       height = xml.height;
+      fromIndex = from;
       this.index = index;
       
       // entities
@@ -58,6 +60,11 @@ package worlds
       
       // other setup
       fade.fadeOut(FADE_TIME);
+    }
+    
+    override public function begin():void
+    {
+      sendMessage("area.begin");
     }
     
     override public function update():void
@@ -87,6 +94,11 @@ package worlds
     {
       if (!listeners[message]) return;
       for (var f:Object in listeners[message]) f();
+    }
+    
+    public function reload():void
+    {
+      current.fade.fadeIn(FADE_TIME, function():void { load(index, fromIndex); });
     }
     
     private function loadObjects(data:XML):void

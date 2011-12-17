@@ -22,14 +22,14 @@ package entities
       layer = 1;
       setHitbox(width, height);
       
-      floor = new Tilemap(TILES, width, height, Game.TILE_SIZE, Game.TILE_SIZE);
-      floor.usePositions = true;
-      floor.color = 0xAAAAAA;
-      addGraphic(floor);
-      
       walls = new Tilemap(TILES, width, height, Game.TILE_SIZE, Game.TILE_SIZE);
       walls.usePositions = true;
+      walls.color = 0xAAAAAA;
       addGraphic(walls);
+      
+      floor = new Tilemap(TILES, width, height, Game.TILE_SIZE, Game.TILE_SIZE);
+      floor.usePositions = true;
+      addGraphic(floor);
       
       mask = grid = new Grid(width, height, Game.TILE_SIZE, Game.TILE_SIZE);
       grid.usePositions = true;
@@ -37,18 +37,18 @@ package entities
     
     public function loadFromXML(data:XML):void
     {
-      for each (var o:Object in data.floor.tile) floor.setTile(o.@x, o.@y, o.@id);
-      for each (o in data.floor.rect) floor.setRect(o.@x, o.@y, o.@w, o.@h, o.@id);
+      for each (var o:Object in data.walls.tile) walls.setTile(o.@x, o.@y, o.@id);
+      for each (o in data.walls.rect) walls.setRect(o.@x, o.@y, o.@w, o.@h, o.@id);
       
-      for each (o in data.walls.tile)
+      for each (o in data.floor.tile)
       {
-        walls.setTile(o.@x, o.@y, o.@id);
+        floor.setTile(o.@x, o.@y, o.@id);
         grid.setTile(o.@x, o.@y);
       }
       
-      for each (o in data.walls.rect)
+      for each (o in data.floor.rect)
       {
-        walls.setRect(o.@x, o.@y, o.@w, o.@h, o.@id);
+        floor.setRect(o.@x, o.@y, o.@w, o.@h, o.@id);
         grid.setRect(o.@x, o.@y, o.@w, o.@h);
       }
     } 

@@ -17,7 +17,7 @@
   </tilesets>
   
   <objects>
-    <object name="player" image="player.png" width="9" height="9" imageWidth="9" imageHeight="9">
+    <object name="player" image="player.png" width="8" height="14" imageWidth="8" imageHeight="14">
       <values>
         <integer name="fromArea" default="-1" />
       </values>
@@ -32,8 +32,8 @@
   </objects>
   
   <layers>
-    <tiles name="floor" gridSize="9" gridColor="33000000" exportTileIDs="true" />
     <tiles name="walls" gridSize="9" gridColor="33000000" exportTileIDs="true" />
+    <tiles name="floor" gridSize="9" gridColor="33000000" exportTileIDs="true" />
     <objects name="objects" gridSize="1" drawGridSize="9" gridColor="33000000" />
   </layers>
 </project>
