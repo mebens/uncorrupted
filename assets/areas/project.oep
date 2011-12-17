@@ -1,0 +1,39 @@
+<project>
+  <name>Ludum Dare 22</name>
+  
+  <settings>
+    <defaultWidth>306</defaultWidth>
+    <defaultHeight>216</defaultHeight>
+    <minWidth>306</minWidth>
+    <minHeight>216</minHeight>
+    <maxWidth>25600</maxWidth>
+    <maxHeight>25600</maxHeight>
+    <bgColor>0xEEEEEE</bgColor>
+    <workingDirectory>../images</workingDirectory>
+  </settings>
+  
+  <tilesets>
+    <tileset name="tiles" image="tiles.png" tileWidth="9" tileHeight="9" paletteScale="2" />
+  </tilesets>
+  
+  <objects>
+    <object name="player" image="player.png" width="9" height="9" imageWidth="9" imageHeight="9">
+      <values>
+        <integer name="fromArea" default="-1" />
+      </values>
+    </object>
+    
+    <object name="areaConnection" image="editor.png" width="1" height="1" imageWidth="9" imageHeight="9" tile="true" resizableX="true" resizableY="true">
+      <values>
+        <integer name="index" />
+        <string name="name" />
+      </values>
+    </object>
+  </objects>
+  
+  <layers>
+    <tiles name="floor" gridSize="9" gridColor="33000000" exportTileIDs="true" />
+    <tiles name="walls" gridSize="9" gridColor="33000000" exportTileIDs="true" />
+    <objects name="objects" gridSize="1" drawGridSize="9" gridColor="33000000" />
+  </layers>
+</project>
