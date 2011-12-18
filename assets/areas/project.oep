@@ -31,17 +31,40 @@
       </values>
     </object>
     
+    <object name="switch" image="editor.png" width="9" height="9" imageWidth="9" imageHeight="9" imageOffsetX="9">
+      <values>
+        <string name="onMessage" />
+        <string name="offMessage" />
+        <boolean name="on" default="false" />
+        <string name="name" />
+      </values>
+    </object>
+    
+    <object name="door" image="editor.png" width="9" height="9" imageWidth="9" imageHeight="9" imageOffsetX="18" tile="true" resizableY="true">
+      <values>
+        <string name="openMessage" />
+        <string name="closeMessage" />
+        <boolean name="open" default="false" />
+        <string name="name" />
+      </values>
+    </object>
+    
     <object name="areaConnection" image="editor.png" width="1" height="1" imageWidth="9" imageHeight="9" tile="true" resizableX="true" resizableY="true">
       <values>
         <integer name="index" />
         <string name="name" />
       </values>
     </object>
+    
+    <folder name="decals">
+      <object name="person1" image="person-1.png" width="20" height="5" />
+    </folder>
   </objects>
   
   <layers>
     <tiles name="walls" gridSize="9" gridColor="33000000" exportTileIDs="true" />
     <tiles name="floor" gridSize="9" gridColor="33000000" exportTileIDs="true" />
+    <objects name="decals" gridSize="1" drawGridSize="9" gridColor="33000000" />
     <objects name="objects" gridSize="1" drawGridSize="9" gridColor="33000000" />
   </layers>
 </project>

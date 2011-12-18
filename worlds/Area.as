@@ -20,8 +20,7 @@ package worlds
     
     public static function init():void
     {
-      LIST.push(Test);
-      LIST.push(Test2);
+      LIST.push(Area1);
     }
     
     public static function load(index:uint, from:int = -1):void
@@ -35,6 +34,7 @@ package worlds
       if (current)
       {
         current.paused = true;
+        current.save();
         current.fade.fadeIn(FADE_TIME, function():void { load(index, current.index); });
       }
       else
@@ -53,10 +53,13 @@ package worlds
       
       // entities
       add(fade = new Fade);
+      add(new ActionText);
       add(new Lighting);
-      add(new Ground(width, height));
       add(Player.fromData(xml, from));
-      Ground.id.loadFromXML(xml);
+      add(new Floor(width, height));
+      add(new Walls(width, height));
+      Floor.id.loadFromXML(xml);
+      Walls.id.loadFromXML(xml);
       loadObjects(xml);
       
       // other setup
@@ -66,11 +69,6 @@ package worlds
     override public function begin():void
     {
       sendMessage("area.begin");
-    }
-    
-    override public function end():void
-    {
-      sendMessage("area.save");
     }
     
     override public function update():void
@@ -107,9 +105,16 @@ package worlds
       current.fade.fadeIn(FADE_TIME, function():void { load(index, fromIndex); });
     }
     
+    public function save():void
+    {
+      sendMessage("area.save");
+    }
+    
     private function loadObjects(data:XML):void
     {
       for each (var o:Object in data.objects.roller) add(Roller.fromXML(o));
+      for each (o in data.objects["switch"]) add(Switch.fromXML(o));
+      for each (o in data.objects.door) add(Door.fromXML(o));
       for each (o in data.objects.areaConnection) add(AreaConnection.fromXML(o));
     }
   }

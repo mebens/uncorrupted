@@ -1,0 +1,37 @@
+<level>
+  <width>306</width>
+  <height>216</height>
+  <walls set="tiles">
+    <rect id="0" x="27" y="72" w="171" h="54"/>
+  </walls>
+  <floor set="tiles">
+    <tile id="8" x="72" y="81"/>
+    <tile id="4" x="72" y="72"/>
+    <tile id="22" x="135" y="117"/>
+    <tile id="23" x="144" y="117"/>
+    <tile id="24" x="153" y="117"/>
+    <tile id="23" x="162" y="117"/>
+    <tile id="24" x="171" y="117"/>
+    <tile id="27" x="144" y="108"/>
+    <tile id="28" x="153" y="108"/>
+    <rect id="4" x="18" y="90" w="9" h="36"/>
+    <rect id="3" x="27" y="81" w="45" h="9"/>
+    <rect id="1" x="27" y="126" w="171" h="9"/>
+    <rect id="3" x="81" y="63" w="117" h="9"/>
+    <rect id="0" x="0" y="0" w="198" h="63"/>
+    <rect id="0" x="0" y="63" w="81" h="9"/>
+    <rect id="0" x="0" y="72" w="72" h="9"/>
+    <rect id="0" x="0" y="81" w="27" h="9"/>
+    <rect id="0" x="0" y="90" w="18" h="36"/>
+    <rect id="0" x="0" y="126" w="27" h="9"/>
+    <rect id="0" x="0" y="135" w="198" h="81"/>
+  </floor>
+  <decals>
+    <person1 x="112" y="121"/>
+  </decals>
+  <objects>
+    <player x="33" y="111" fromArea="-1"/>
+    <switch x="48" y="117" onMessage="open" offMessage="close" on="false" name="switch1"/>
+    <door x="67" y="90" height="36" openMessage="open" closeMessage="close" open="false" name="door1"/>
+  </objects>
+</level>
