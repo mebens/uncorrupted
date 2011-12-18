@@ -8,7 +8,7 @@ package entities
   
   public class Floor extends AreaEntity
   {
-    [Embed(source = "../assets/images/person-1.png")]
+    [Embed(source = "../assets/images/decals/person-1.png")]
     public static const PERSON_1:Class;
     
     public static var id:Floor;
@@ -21,7 +21,7 @@ package entities
     {
       id = this;
       type = "solid";
-      layer = 4;
+      layer = 5;
       setHitbox(width, height);
       
       map = new Tilemap(Game.TILES, width, height, Game.TILE_SIZE, Game.TILE_SIZE);

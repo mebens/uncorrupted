@@ -11,7 +11,7 @@ package entities
     public function Walls(width:uint, height:uint)
     {
       id = this;
-      layer = 6;      
+      layer = 7;      
       graphic = map = new Tilemap(Game.TILES, width, height, Game.TILE_SIZE, Game.TILE_SIZE);
       map.usePositions = true;
       map.color = 0xAAAAAA;

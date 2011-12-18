@@ -1,3 +1,20 @@
+/*
+Layers
+
+-4: Fade
+-3: Reading Interface
+-2: Action Text
+-1: Lighting
+0: Enemies
+1: Player
+2: Bullets
+3: Before-floor Objects
+4: Readables
+5: Floor
+6: After-floor Objects
+7: Walls
+*/
+
 package worlds
 {
   import flash.utils.Dictionary;
@@ -53,6 +70,7 @@ package worlds
       
       // entities
       add(fade = new Fade);
+      add(new ReadingInterface)
       add(new ActionText);
       add(new Lighting);
       add(Player.fromData(xml, from));
@@ -115,6 +133,7 @@ package worlds
       for each (var o:Object in data.objects.roller) add(Roller.fromXML(o));
       for each (o in data.objects["switch"]) add(Switch.fromXML(o));
       for each (o in data.objects.door) add(Door.fromXML(o));
+      for each (o in data.objects.note) add(Note.fromXML(o));
       for each (o in data.objects.areaConnection) add(AreaConnection.fromXML(o));
     }
   }

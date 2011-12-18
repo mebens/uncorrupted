@@ -24,7 +24,6 @@ package entities
       
       shadow = new Text("", PADDING + SHADOW_OFFSET, FP.height - BOTTOM_PADDING + SHADOW_OFFSET, {
         width: FP.width - PADDING * 2,
-        size: 8,
         align: "center",
         wordWrap: true,
         alpha: 0,
@@ -33,7 +32,6 @@ package entities
       
       text = new Text("", PADDING, FP.height - BOTTOM_PADDING, {
         width: FP.width - PADDING * 2,
-        size: 8,
         align: "center",
         wordWrap: true,
         alpha: 0

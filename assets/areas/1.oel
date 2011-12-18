@@ -33,5 +33,6 @@
     <player x="33" y="111" fromArea="-1"/>
     <switch x="48" y="117" onMessage="open" offMessage="close" on="false" name="switch1"/>
     <door x="67" y="90" height="36" openMessage="open" closeMessage="close" open="false" name="door1"/>
+    <note x="100" y="123" text="They wanted kittens, but could not have them.\n\nHello world. igjpsofigjpdfoigjpdfoigjpdfoigjpdfoigjdfpoigjdpfoigjdfpoigjpsfoigjspoifgjsfpoigjsfpoigjspfoigjsfpoigjsfpoigjsfpoigjspfoigjsfpoigjsfpoigjspfoigjsfpoigjpsfoigj.\n\n The end." name="note1"/>
   </objects>
 </level>

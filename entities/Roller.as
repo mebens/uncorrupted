@@ -44,6 +44,7 @@ package entities
     
     override public function update():void
     {
+      if (area.paused) return;
       var p:Player = Player.id;
       
       if (attacking)

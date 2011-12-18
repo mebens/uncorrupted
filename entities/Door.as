@@ -36,7 +36,7 @@ package entities
       super(x, y);
       setHitbox(Game.TILE_SIZE, Game.TILE_SIZE * height);
       type = "solid";
-      layer = 5;
+      layer = 6;
       openMessage = openMsg;
       closeMessage = closeMsg;
       isOpen = open;

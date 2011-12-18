@@ -34,6 +34,8 @@ package entities
     
     override public function update():void
     {
+      if (area.paused) return;
+      
       if (collideWith(Player.id, x, y))
       {
         ActionText.id.display("Activate", "Switch");

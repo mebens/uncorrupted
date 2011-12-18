@@ -49,6 +49,13 @@
       </values>
     </object>
     
+    <object name="note" image="note.png" width="8" height="2">
+      <values>
+        <string name="text" />
+        <string name="name" />
+      </values>
+    </object>
+    
     <object name="areaConnection" image="editor.png" width="1" height="1" imageWidth="9" imageHeight="9" tile="true" resizableX="true" resizableY="true">
       <values>
         <integer name="index" />

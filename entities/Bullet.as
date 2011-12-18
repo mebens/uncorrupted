@@ -29,6 +29,8 @@ package entities
     
     override public function update():void
     {
+      if (area.paused) return;
+      
       if (emitter)
       {
         if (emitter.particleCount == 0) area.remove(this);
