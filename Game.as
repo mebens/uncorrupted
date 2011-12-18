@@ -12,7 +12,7 @@ package
     public static const TILES:Class;
     
     public static const TILE_SIZE:uint = 9;
-    public static const GRAVITY:Number = 800;
+    public static const GRAVITY:Number = 700;
     public static const FRICTION:Number = 0.82;
     
     public function Game()

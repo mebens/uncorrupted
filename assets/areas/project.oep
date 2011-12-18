@@ -8,7 +8,7 @@
     <minHeight>216</minHeight>
     <maxWidth>25600</maxWidth>
     <maxHeight>25600</maxHeight>
-    <bgColor>0xEEEEEE</bgColor>
+    <bgColor>0x111111</bgColor>
     <workingDirectory>../images</workingDirectory>
   </settings>
   
@@ -25,7 +25,7 @@
     
     <object name="roller" image="roller.png" width="16" height="14" imageWidth="16" imageHeight="14">
       <values>
-        <integer name="zoneSize" default="100" />
+        <integer name="zoneSize" default="150" />
         <integer name="health" default="4" />
         <string name="name" />
       </values>
@@ -49,13 +49,6 @@
       </values>
     </object>
     
-    <object name="note" image="note.png" width="8" height="2">
-      <values>
-        <string name="text" />
-        <string name="name" />
-      </values>
-    </object>
-    
     <object name="areaConnection" image="editor.png" width="1" height="1" imageWidth="9" imageHeight="9" tile="true" resizableX="true" resizableY="true">
       <values>
         <integer name="index" />
@@ -63,15 +56,44 @@
       </values>
     </object>
     
+    <folder name="readables">
+      <object name="note" image="note.png" width="8" height="2">
+        <values>
+          <string name="text" />
+          <string name="name" />
+        </values>
+      </object>
+      
+      <object name="board" image="board.png" width="27" height="18">
+        <values>
+          <string name="text" />
+          <string name="name" />
+        </values>
+      </object>
+      
+      <object name="computerLog" image="computer.png" width="18" height="9">
+        <values>
+          <string name="text" />
+          <string name="name" />
+        </values>
+      </object>
+    </folder>
+    
     <folder name="decals">
-      <object name="person1" image="person-1.png" width="20" height="5" />
+      <object name="person1" image="decals/person-1.png" width="20" height="5" />
+      <object name="person2" image="decals/person-2.png" width="20" height="5" />
+      <object name="person3" image="decals/person-3.png" width="20" height="5" />
+      <object name="blood1" image="decals/blood-1.png" width="13" height="4" />
+      <object name="blood2" image="decals/blood-2.png" width="9" height="2" />
+      <object name="blood3" image="decals/blood-3.png" width="10" height="2" />
+      <object name="blood4" image="decals/blood-4.png" width="8" height="6" />
     </folder>
   </objects>
   
   <layers>
-    <tiles name="walls" gridSize="9" gridColor="33000000" exportTileIDs="true" />
-    <tiles name="floor" gridSize="9" gridColor="33000000" exportTileIDs="true" />
-    <objects name="decals" gridSize="1" drawGridSize="9" gridColor="33000000" />
-    <objects name="objects" gridSize="1" drawGridSize="9" gridColor="33000000" />
+    <tiles name="walls" gridSize="9" gridColor="33FFFFFF" exportTileIDs="true" />
+    <tiles name="floor" gridSize="9" gridColor="33FFFFFF" exportTileIDs="true" />
+    <objects name="decals" gridSize="1" drawGridSize="9" gridColor="33FFFFFF" />
+    <objects name="objects" gridSize="1" drawGridSize="9" gridColor="33FFFFFF" />
   </layers>
 </project>

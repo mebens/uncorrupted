@@ -10,9 +10,26 @@ package entities
   {
     [Embed(source = "../assets/images/decals/person-1.png")]
     public static const PERSON_1:Class;
+
+    [Embed(source = "../assets/images/decals/person-2.png")]
+    public static const PERSON_2:Class;
+    
+    [Embed(source = "../assets/images/decals/person-3.png")]
+    public static const PERSON_3:Class;
+    
+    [Embed(source = "../assets/images/decals/blood-1.png")]
+    public static const BLOOD_1:Class;
+    
+    [Embed(source = "../assets/images/decals/blood-2.png")]
+    public static const BLOOD_2:Class;
+    
+    [Embed(source = "../assets/images/decals/blood-3.png")]
+    public static const BLOOD_3:Class;
+    
+    [Embed(source = "../assets/images/decals/blood-4.png")]
+    public static const BLOOD_4:Class;
     
     public static var id:Floor;
-    
     public var map:Tilemap;
     public var decals:Canvas;
     public var grid:Grid;
@@ -55,6 +72,12 @@ package entities
       }
       
       for each (o in data.decals.person1) addDecal(PERSON_1, o.@x, o.@y);
+      for each (o in data.decals.person2) addDecal(PERSON_2, o.@x, o.@y);
+      for each (o in data.decals.person3) addDecal(PERSON_3, o.@x, o.@y);
+      for each (o in data.decals.blood1) addDecal(BLOOD_1, o.@x, o.@y);
+      for each (o in data.decals.blood2) addDecal(BLOOD_2, o.@x, o.@y);
+      for each (o in data.decals.blood3) addDecal(BLOOD_3, o.@x, o.@y);
+      for each (o in data.decals.blood4) addDecal(BLOOD_4, o.@x, o.@y);
     }
   }
 }

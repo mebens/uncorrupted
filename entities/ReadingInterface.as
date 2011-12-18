@@ -26,10 +26,12 @@ package entities
       layer = -3;
       
       background = Image.createRect(width, height, 0x000000, 0);
+      background.scrollX = background.scrollY = 0;
       addGraphic(background);
       
       instructions = new Text("Press Z to close.", PADDING, 0, { alpha: 0 });
       instructions.y = height - PADDING - instructions.textHeight;
+      instructions.scrollX = instructions.scrollY = 0;
       addGraphic(instructions);
       
       text = new Text("", PADDING, PADDING, {
@@ -39,6 +41,7 @@ package entities
         alpha: 0
       });
       
+      text.scrollX = text.scrollY = 0;
       addGraphic(text);
     }
     

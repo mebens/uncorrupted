@@ -30,7 +30,7 @@ package entities
       return (new Roller(o.@x, o.@y, o.@zoneSize, o.@health)).setupFromXML(o) as Roller;
     }
     
-    public function Roller(x:int, y:int, zoneSize:uint = 100, health:uint = 4)
+    public function Roller(x:int, y:int, zoneSize:uint = 150, health:uint = 4)
     {
       super(x, y, health);
       setHitbox(16, 14);

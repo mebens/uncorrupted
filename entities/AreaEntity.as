@@ -16,7 +16,6 @@ package entities
       if (name)
       {
         var data:String = Data.readString("area" + area.index + "-" + name);
-        FP.log(data);
         
         if (data != "")
         {
@@ -40,8 +39,6 @@ package entities
             {
               dataObj[key] = Number(value);
             }
-            
-            FP.log(key, dataObj[key]);
           }
           
           loadFromData(dataObj);

@@ -38,7 +38,7 @@ package entities
       
       if (collideWith(Player.id, x, y))
       {
-        ActionText.id.display("Activate", "Switch");
+        ActionText.id.display(name, "Activate", "Switch");
         
         if (Input.pressed("action"))
         {
@@ -55,9 +55,9 @@ package entities
           }
         }
       }
-      else
+      else if (ActionText.id.currentName == name)
       {
-        ActionText.id.close("Activate", "Switch");
+        ActionText.id.close(name);
       }
     }
     

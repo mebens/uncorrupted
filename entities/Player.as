@@ -11,7 +11,7 @@ package entities
     public static const IMAGE:Class;
     
     public static const ACCELERATION:Number = 1200;
-    public static const JUMP_SPEED:Number = -250;
+    public static const JUMP_SPEED:Number = -200;
     public static const FLOAT_GRAVITY:Number = 2.5;
     public static const MAX_FALL:Number = 500;
     public static var id:Player;

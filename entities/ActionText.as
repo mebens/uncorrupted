@@ -14,8 +14,7 @@ package entities
     public var text:Text;
     public var shadow:Text;
     public var tween:Tween;
-    public var action:String;
-    public var description:String;
+    public var currentName:String;
     
     public function ActionText()
     {
@@ -42,28 +41,26 @@ package entities
       addGraphic(text);
     }
     
-    public function display(action:String, description:String):void
+    public function display(name:String, action:String, description:String):void
     {
-      if (action == this.action && description == this.description) return;
+      if (name == currentName) return;
       
-      if (!this.action)
+      if (!currentName)
       {
         if (tween && tween.active) tween.cancel();
         tween = FP.tween(text, { alpha: 1 }, FADE_TIME, { tweener: this });
       }
       
       text.text = shadow.text = action + ": " + description;
-      this.action = action;
-      this.description = description;
+      currentName = name;
     }
     
-    public function close(action:String, description:String):void
+    public function close(name:String):void
     {
-      if (action != this.action || description != this.description) return;
+      if (name != currentName) return;
       if (tween && tween.active) tween.cancel();
       tween = FP.tween(text, { alpha: 0 }, FADE_TIME, { tweener: this });
-      this.action = null;
-      this.description = null;
+      currentName = null;
     }
   }
 }

@@ -26,16 +26,16 @@ package entities
         if (Input.pressed("action"))
         {
           ReadingInterface.id.open(text);
-          ActionText.id.close("Read", description);
+          ActionText.id.close(name);
         }
         else
         {
-          ActionText.id.display("Read", description);
+          ActionText.id.display(name, "Read", description);
         }
       }
-      else
+      else if (ActionText.id.currentName == name)
       {
-        ActionText.id.close("Read", description);
+        ActionText.id.close(name);
       }
     }
   }

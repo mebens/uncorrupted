@@ -19,7 +19,6 @@ package entities
     
     public static function fromXML(o:Object):Door
     {
-      FP.log(o.@height);
       return (new Door(
         o.@x,
         o.@y,
@@ -32,7 +31,6 @@ package entities
     
     public function Door(x:int, y:int, height:uint, openMsg:String, closeMsg:String, open:Boolean = false)
     {
-      FP.log(height);
       super(x, y);
       setHitbox(Game.TILE_SIZE, Game.TILE_SIZE * height);
       type = "solid";
