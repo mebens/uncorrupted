@@ -17,9 +17,17 @@
   </tilesets>
   
   <objects>
-    <object name="player" image="player.png" width="8" height="14" imageWidth="8" imageHeight="14">
+    <object name="player" image="player.png" width="8" height="15" imageWidth="8" imageHeight="15">
       <values>
         <integer name="fromArea" default="-1" />
+      </values>
+    </object>
+    
+    <object name="roller" image="roller.png" width="16" height="14" imageWidth="16" imageHeight="14">
+      <values>
+        <integer name="zoneSize" default="100" />
+        <integer name="health" default="4" />
+        <string name="name" />
       </values>
     </object>
     

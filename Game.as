@@ -9,6 +9,7 @@ package
   {
     public static const TILE_SIZE:uint = 9;
     public static const GRAVITY:Number = 800;
+    public static const FRICTION:Number = 0.82;
     
     public function Game()
     {
@@ -20,7 +21,7 @@ package
       Input.define("left", Key.LEFT, Key.A);
       Input.define("right", Key.RIGHT, Key.D);
       Input.define("jump", Key.SPACE, Key.UP, Key.W);
-      Input.define("shoot", Key.SPACE);
+      Input.define("shoot", Key.X, Key.C);
     }
     
     override public function init():void

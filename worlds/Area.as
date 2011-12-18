@@ -53,6 +53,7 @@ package worlds
       
       // entities
       add(fade = new Fade);
+      add(new Lighting);
       add(new Ground(width, height));
       add(Player.fromData(xml, from));
       Ground.id.loadFromXML(xml);
@@ -65,6 +66,11 @@ package worlds
     override public function begin():void
     {
       sendMessage("area.begin");
+    }
+    
+    override public function end():void
+    {
+      sendMessage("area.save");
     }
     
     override public function update():void
@@ -103,7 +109,8 @@ package worlds
     
     private function loadObjects(data:XML):void
     {
-      for each (var o:Object in data.objects.areaConnection) add(AreaConnection.fromXML(o));
+      for each (var o:Object in data.objects.roller) add(Roller.fromXML(o));
+      for each (o in data.objects.areaConnection) add(AreaConnection.fromXML(o));
     }
   }
 }

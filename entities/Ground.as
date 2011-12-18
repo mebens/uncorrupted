@@ -19,7 +19,7 @@ package entities
     {
       id = this;
       type = "solid";
-      layer = 1;
+      layer = 3;
       setHitbox(width, height);
       
       walls = new Tilemap(TILES, width, height, Game.TILE_SIZE, Game.TILE_SIZE);
