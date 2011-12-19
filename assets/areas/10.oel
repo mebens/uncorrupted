@@ -132,7 +132,7 @@
     <switch x="540" y="99" onMessage="open" offMessage="close" on="false" name="switch1"/>
     <door x="630" y="72" height="36" openMessage="open" closeMessage="close" open="false" name="door1"/>
     <roller x="648" y="94" zoneSize="200" health="12" name="roller4"/>
-    <board x="756" y="81" text="You are now leaving the facility. Guests, we hoped you enjoyed your stay. Employees, we will see you soon." name="board1"/>
+    <board x="756" y="81" text="You are now leaving the facility. Guests, we hope you enjoyed your stay. Employees, we will see you soon." name="board1"/>
     <areaConnection x="0" y="153" width="9" height="36" index="8" name=""/>
     <player x="14" y="174" fromArea="8"/>
     <person2 x="278" y="132"/>

@@ -80,7 +80,7 @@
   <objects>
     <computerLog x="216" y="117" text="Log 1\nI'm wondering why so many computers aren't being put to good use in this facility. Come on people! At least put an AI research bot on them." name="log1"/>
     <computerLog x="252" y="117" text="Ulfric's Log\n\nLog 1\nI've heard some rumors about a new section, some say it's going to be labeled section 1337; I doubt that. Nevertheless, I'm interested to know what it'll be used for, if the rumors are true of course.\n\nLog 2\nWell, it seems that a new section is being constructed. I'm wondering whether this has something to do with the new robot we're developing.\n\nLog 3\nI was right. Section 1337 will be for our new, so far unnamed, robot." name=""/>
-    <board x="306" y="108" text="January 15, 2021: Section 1337 completed.\nJanuary 17, 2023: Robot F97 installed and ready for further development.\nFebruary 10, 2023: Robot F97 completed.\nFebruary 11, 2023: Testing new AI development algorithms on robots.\nFebruary 24, 2023: Robots have taken a turn for the worse with these algorithms. Hopefully nothing too bad happens." name="board1"/>
+    <board x="306" y="108" text="January 15, 2023: Section 1337 completed.\nJanuary 17, 2023: Robot F97 installed and ready for further development.\nFebruary 10, 2023: Robot F97 completed.\nFebruary 11, 2023: Testing new AI development algorithms on robots.\nFebruary 24, 2023: Robots have taken a turn for the worse with these algorithms. Hopefully nothing too bad happens." name="board1"/>
     <computerLog x="369" y="117" text="Empty." name="log3"/>
     <computerLog x="405" y="117" text="I've got a bad feeling about these new development algorithms." name="log4"/>
     <roller x="431" y="121" zoneSize="200" health="3" name="roller1"/>
