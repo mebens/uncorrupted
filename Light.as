@@ -6,17 +6,19 @@ package
   {
     public var scale:Number = 1;
     public var alpha:Number = 1;
+    public var end:Boolean = false;
     private var _x:int = 0;
     private var _y:int = 0;
     private var _point:Point;
     
-    public function Light(x:int, y:int, scale:Number = 1, alpha:Number = 1)
+    public function Light(x:int, y:int, scale:Number = 1, alpha:Number = 1, end:Boolean = false)
     {
       _x = x;
       _y = y;
       _point = new Point(x, y);
       this.scale = scale;
       this.alpha = alpha;
+      this.end = end;
     }
     
     public function get x():int

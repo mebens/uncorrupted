@@ -48,8 +48,8 @@
     <computerLog x="157" y="108" text="Log 1\nWe've just finished this new section, section 1337, specifically for our new and upcoming robot. Well, better get back to work.\n\nLog 2\nRobot nearing completition. I'm very excited.\n\nLog 3\nNearly there! ETA is tomorrow.\n\nLog 4\nAnd we're done! The cabalities of this thing are amazing! First [TO FINISH LATER]" name="log1"/>
     <note x="142" y="115" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\nI think I got it right, we'll soon see.\n\n-- Rachael" name="note2"/>
     <board x="252" y="99" text="7:30 PM\nEngineer's meeting.\n\n8:30 PM\nDeep intellectual talks about KITTENS AND LOBSTERS!\n\n8:31 PM\nJoel's a troll. -__-" name="board1"/>
-    <roller x="425" y="112" zoneSize="150" health="2" name="roller1"/>
+    <roller x="420" y="112" zoneSize="150" health="2" name="roller1"/>
     <areaConnection x="459" y="90" width="9" height="36" index="1" name=""/>
-    <player x="407" y="110" fromArea="1"/>
+    <player x="446" y="110" fromArea="1"/>
   </objects>
 </level>

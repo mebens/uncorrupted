@@ -10,6 +10,12 @@ package entities
     [Embed(source = "../assets/images/player.png")]
     public static const IMAGE:Class;
     
+    [Embed(source = "../assets/sfx/land.mp3")]
+    public static const LAND_SFX:Class;
+    
+    [Embed(source = "../assets/sfx/shoot.mp3")]
+    public static const SHOOT_SFX:Class;
+    
     public static const ACCELERATION:Number = 1200;
     public static const JUMP_SPEED:Number = -200;
     public static const FLOAT_GRAVITY:Number = 2.5;
@@ -20,6 +26,9 @@ package entities
     public var light:Light;
     public var vel:Point = new Point;
     public var inAir:Boolean;
+    
+    public var landSfx:Sfx = new Sfx(LAND_SFX);
+    public var shootSfx:Sfx = new Sfx(SHOOT_SFX);
     
     public static function fromData(xml:XML, fromArea:int):Player
     {
@@ -94,7 +103,11 @@ package entities
         map.x = xAxis == -1 ? -2 : 0;
       }
       
-      if (Input.pressed("shoot")) area.add(new Bullet(map.flipped ? x - Bullet.WIDTH : x + 8, y + 4, map.flipped ? -1 : 1));
+      if (Input.pressed("shoot"))
+      {
+        shootSfx.play();
+        area.add(new Bullet(map.flipped ? x - Bullet.WIDTH : x + 8, y + 4, map.flipped ? -1 : 1));
+      }
     }
     
     override public function moveCollideX(e:Entity):Boolean
@@ -105,6 +118,7 @@ package entities
     
     override public function moveCollideY(e:Entity):Boolean
     {
+      if (vel.y > 0) landSfx.play();
       vel.y = 0;
       return true;
     }

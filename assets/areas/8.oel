@@ -1,0 +1,173 @@
+<level>
+  <width>612</width>
+  <height>306</height>
+  <walls set="tiles">
+    <tile id="18" x="486" y="18"/>
+    <tile id="18" x="486" y="144"/>
+    <rect id="16" x="45" y="63" w="9" h="36"/>
+    <rect id="16" x="99" y="63" w="9" h="36"/>
+    <rect id="16" x="369" y="63" w="9" h="36"/>
+    <rect id="16" x="486" y="0" w="9" h="18"/>
+    <rect id="16" x="486" y="27" w="9" h="117"/>
+    <rect id="16" x="486" y="153" w="9" h="117"/>
+    <rect id="16" x="486" y="288" w="9" h="18"/>
+    <rect id="17" x="396" y="270" w="90" h="9"/>
+    <rect id="17" x="396" y="279" w="90" h="9"/>
+    <rect id="17" x="495" y="270" w="45" h="9"/>
+    <rect id="17" x="495" y="279" w="45" h="9"/>
+    <rect id="17" x="396" y="144" w="90" h="9"/>
+    <rect id="17" x="495" y="144" w="45" h="9"/>
+    <rect id="17" x="396" y="18" w="90" h="9"/>
+    <rect id="17" x="495" y="18" w="45" h="9"/>
+    <rect id="18" x="486" y="270" w="9" h="18"/>
+    <rect id="16" x="297" y="189" w="9" h="36"/>
+    <rect id="16" x="333" y="189" w="9" h="36"/>
+    <rect id="16" x="369" y="189" w="9" h="36"/>
+    <rect id="17" x="135" y="171" w="144" h="9"/>
+    <rect id="17" x="135" y="234" w="144" h="9"/>
+    <rect id="16" x="63" y="189" w="9" h="36"/>
+    <rect id="16" x="108" y="189" w="9" h="36"/>
+    <rect id="17" x="27" y="252" w="18" h="9"/>
+    <rect id="17" x="27" y="279" w="18" h="9"/>
+    <rect id="0" x="0" y="63" w="45" h="36"/>
+    <rect id="0" x="54" y="63" w="45" h="36"/>
+    <rect id="0" x="378" y="27" w="108" h="117"/>
+    <rect id="0" x="396" y="0" w="90" h="18"/>
+    <rect id="0" x="495" y="0" w="45" h="18"/>
+    <rect id="0" x="495" y="27" w="45" h="117"/>
+    <rect id="0" x="378" y="153" w="108" h="117"/>
+    <rect id="0" x="495" y="153" w="45" h="117"/>
+    <rect id="0" x="495" y="288" w="45" h="18"/>
+    <rect id="0" x="396" y="288" w="90" h="18"/>
+    <rect id="0" x="342" y="189" w="27" h="36"/>
+    <rect id="0" x="306" y="189" w="27" h="36"/>
+    <rect id="0" x="135" y="162" w="144" h="9"/>
+    <rect id="0" x="117" y="180" w="180" h="54"/>
+    <rect id="0" x="72" y="189" w="36" h="36"/>
+    <rect id="0" x="27" y="189" w="36" h="63"/>
+    <rect id="0" x="27" y="261" w="18" h="18"/>
+    <rect id="0" x="27" y="288" w="18" h="18"/>
+    <rect id="0" x="108" y="63" w="45" h="36"/>
+    <rect id="16" x="153" y="63" w="9" h="36"/>
+    <rect id="0" x="162" y="54" w="45" h="45"/>
+    <rect id="0" x="216" y="54" w="45" h="45"/>
+    <rect id="0" x="270" y="54" w="45" h="45"/>
+    <rect id="0" x="324" y="54" w="45" h="45"/>
+    <rect id="16" x="207" y="54" w="9" h="45"/>
+    <rect id="16" x="261" y="54" w="9" h="45"/>
+    <rect id="16" x="315" y="54" w="9" h="45"/>
+    <tile id="18" x="315" y="99"/>
+    <tile id="18" x="261" y="99"/>
+    <tile id="18" x="207" y="99"/>
+    <tile id="17" x="198" y="99"/>
+    <rect id="17" x="216" y="99" w="45" h="9"/>
+    <rect id="17" x="270" y="99" w="45" h="9"/>
+  </walls>
+  <floor set="tiles">
+    <tile id="6" x="198" y="99"/>
+    <tile id="5" x="315" y="99"/>
+    <tile id="8" x="387" y="54"/>
+    <tile id="6" x="387" y="99"/>
+    <tile id="8" x="387" y="180"/>
+    <tile id="6" x="387" y="225"/>
+    <tile id="5" x="279" y="225"/>
+    <tile id="2" x="279" y="234"/>
+    <tile id="4" x="126" y="234"/>
+    <tile id="6" x="126" y="225"/>
+    <tile id="8" x="126" y="180"/>
+    <tile id="3" x="279" y="171"/>
+    <tile id="4" x="126" y="171"/>
+    <tile id="7" x="279" y="180"/>
+    <tile id="7" x="270" y="162"/>
+    <tile id="8" x="135" y="162"/>
+    <tile id="22" x="180" y="234"/>
+    <tile id="23" x="189" y="234"/>
+    <tile id="24" x="198" y="234"/>
+    <tile id="25" x="225" y="234"/>
+    <tile id="24" x="207" y="234"/>
+    <tile id="23" x="216" y="234"/>
+    <tile id="5" x="45" y="225"/>
+    <tile id="19" x="36" y="36"/>
+    <tile id="20" x="45" y="36"/>
+    <tile id="21" x="54" y="36"/>
+    <tile id="20" x="171" y="36"/>
+    <tile id="21" x="180" y="36"/>
+    <tile id="19" x="162" y="36"/>
+    <rect id="1" x="0" y="99" w="198" h="9"/>
+    <rect id="3" x="207" y="45" w="108" h="9"/>
+    <rect id="1" x="207" y="108" w="108" h="9"/>
+    <rect id="4" x="387" y="0" w="9" h="54"/>
+    <rect id="1" x="324" y="99" w="63" h="9"/>
+    <rect id="4" x="387" y="108" w="9" h="72"/>
+    <rect id="4" x="387" y="234" w="9" h="72"/>
+    <rect id="2" x="540" y="0" w="9" h="306"/>
+    <rect id="1" x="288" y="225" w="99" h="9"/>
+    <rect id="1" x="135" y="243" w="144" h="9"/>
+    <rect id="3" x="144" y="153" w="126" h="9"/>
+    <rect id="3" x="288" y="180" w="99" h="9"/>
+    <rect id="3" x="27" y="180" w="99" h="9"/>
+    <rect id="4" x="18" y="189" w="9" h="117"/>
+    <rect id="1" x="54" y="225" w="72" h="9"/>
+    <rect id="2" x="45" y="234" w="9" h="72"/>
+    <rect id="16" x="45" y="0" w="9" h="36"/>
+    <rect id="17" x="0" y="36" w="36" h="9"/>
+    <rect id="17" x="63" y="36" w="99" h="9"/>
+    <rect id="16" x="171" y="0" w="9" h="36"/>
+    <rect id="0" x="0" y="0" w="45" h="36"/>
+    <rect id="0" x="54" y="0" w="117" h="36"/>
+    <rect id="0" x="0" y="45" w="207" h="9"/>
+    <rect id="0" x="189" y="36" w="198" h="9"/>
+    <rect id="0" x="315" y="45" w="72" h="9"/>
+    <rect id="0" x="180" y="0" w="207" h="36"/>
+    <rect id="0" x="549" y="0" w="63" h="306"/>
+    <rect id="0" x="0" y="108" w="207" h="9"/>
+    <rect id="0" x="315" y="108" w="72" h="9"/>
+    <rect id="0" x="0" y="117" w="387" h="36"/>
+    <rect id="0" x="270" y="153" w="117" h="9"/>
+    <rect id="0" x="279" y="162" w="108" h="9"/>
+    <rect id="0" x="288" y="171" w="99" h="9"/>
+    <rect id="0" x="0" y="153" w="144" h="9"/>
+    <rect id="0" x="0" y="162" w="135" h="9"/>
+    <rect id="0" x="0" y="171" w="126" h="9"/>
+    <rect id="0" x="0" y="180" w="27" h="9"/>
+    <rect id="0" x="0" y="189" w="18" h="117"/>
+    <rect id="0" x="54" y="234" w="72" h="9"/>
+    <rect id="0" x="54" y="243" w="81" h="9"/>
+    <rect id="0" x="279" y="243" w="108" h="9"/>
+    <rect id="0" x="288" y="234" w="99" h="9"/>
+    <rect id="0" x="54" y="252" w="333" h="54"/>
+    <rect id="3" x="0" y="54" w="180" h="9"/>
+    <tile id="8" x="180" y="54"/>
+    <tile id="7" x="333" y="54"/>
+    <rect id="3" x="342" y="54" w="45" h="9"/>
+    <tile id="15" x="495" y="171"/>
+    <tile id="15" x="468" y="144"/>
+    <tile id="5" x="441" y="189"/>
+    <tile id="12" x="432" y="117"/>
+    <tile id="14" x="441" y="117"/>
+    <tile id="9" x="432" y="207"/>
+    <tile id="12" x="423" y="207"/>
+    <tile id="6" x="450" y="189"/>
+    <tile id="4" x="450" y="198"/>
+    <tile id="2" x="441" y="198"/>
+    <tile id="8" x="450" y="207"/>
+    <tile id="3" x="441" y="207"/>
+  </floor>
+  <decals>
+    <blood1 x="160" y="243"/>
+    <blood3 x="233" y="243"/>
+  </decals>
+  <objects>
+    <roller x="233" y="94" zoneSize="150" health="2" name="roller2"/>
+    <roller x="170" y="85" zoneSize="150" health="4" name="roller1"/>
+    <roller x="282" y="211" zoneSize="100" health="2" name="roller3"/>
+    <roller x="48" y="211" zoneSize="100" health="2" name="roller4"/>
+    <computerLog x="183" y="225" text="Log 1\nI'm wondering why we use &quot;Hello World&quot; all the time in programming examples. Why not, &quot;Hello Bob&quot;, or, &quot;Hello Africa&quot;? Actually, why are we even saying hello? How about just shouting &quot;KITTENS!&quot;, or, &quot;LOBSTERS!&quot;, or even better, &quot;KITTEN LOBSTERIZATIONS!&quot;" name="log2"/>
+    <computerLog x="213" y="225" text="Heeeeellp! The defective robots have got lose and are killing everyone! They're even blocking off exit paths!\n\nIf you're reading this, know that I'm probably dead.\n\n-- Joel" name="log1"/>
+    <note x="203" y="232" text="The cake is a lie. It always seems to be." name="note1"/>
+    <areaConnection x="27" y="297" width="18" height="9" index="8" name=""/>
+    <areaConnection x="0" y="63" width="9" height="36" index="6" name=""/>
+    <player x="18" y="84" fromArea="6"/>
+    <board x="252" y="77" text="Warning! Killer robots on the lose. Make way to the escape routes as fast as possible." name="board1"/>
+  </objects>
+</level>

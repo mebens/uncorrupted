@@ -56,6 +56,8 @@
       </values>
     </object>
     
+    <object name="end" image="editor.png" width="9" height="9" imageWidth="9" imageHeight="9" imageOffsetX="27" tile="true" resizableX="true" resizableY="true" />
+    
     <folder name="readables">
       <object name="note" image="note.png" width="8" height="2">
         <values>
@@ -81,8 +83,8 @@
     
     <folder name="decals">
       <object name="person1" image="decals/person-1.png" width="20" height="5" />
-      <object name="person2" image="decals/person-2.png" width="20" height="5" />
-      <object name="person3" image="decals/person-3.png" width="20" height="5" />
+      <object name="person2" image="decals/person-2.png" width="17" height="3" />
+      <object name="person3" image="decals/person-3.png" width="17" height="3" />
       <object name="blood1" image="decals/blood-1.png" width="13" height="4" />
       <object name="blood2" image="decals/blood-2.png" width="9" height="2" />
       <object name="blood3" image="decals/blood-3.png" width="10" height="2" />

@@ -1,0 +1,143 @@
+<level>
+  <width>558</width>
+  <height>396</height>
+  <walls set="tiles">
+    <rect id="17" x="27" y="18" w="18" h="9"/>
+    <rect id="17" x="27" y="45" w="18" h="9"/>
+    <rect id="17" x="207" y="108" w="36" h="18"/>
+    <rect id="17" x="207" y="198" w="36" h="18"/>
+    <rect id="17" x="207" y="153" w="36" h="18"/>
+    <rect id="16" x="72" y="63" w="9" h="36"/>
+    <rect id="16" x="117" y="63" w="9" h="36"/>
+    <rect id="16" x="162" y="63" w="9" h="36"/>
+    <tile id="16" x="99" y="234"/>
+    <tile id="18" x="99" y="243"/>
+    <rect id="17" x="81" y="243" w="18" h="9"/>
+    <tile id="16" x="144" y="234"/>
+    <rect id="16" x="144" y="252" w="9" h="27"/>
+    <rect id="16" x="99" y="252" w="9" h="27"/>
+    <tile id="16" x="306" y="234"/>
+    <rect id="16" x="306" y="252" w="9" h="27"/>
+    <tile id="16" x="360" y="234"/>
+    <rect id="16" x="360" y="252" w="9" h="27"/>
+    <rect id="17" x="162" y="279" w="126" h="9"/>
+    <rect id="17" x="162" y="225" w="126" h="9"/>
+    <rect id="17" x="108" y="243" w="36" h="9"/>
+    <rect id="17" x="153" y="243" w="153" h="9"/>
+    <rect id="17" x="315" y="243" w="45" h="9"/>
+    <rect id="17" x="369" y="243" w="81" h="9"/>
+    <rect id="17" x="459" y="243" w="72" h="9"/>
+    <rect id="17" x="540" y="243" w="18" h="9"/>
+    <tile id="18" x="450" y="243"/>
+    <tile id="18" x="531" y="243"/>
+    <rect id="16" x="450" y="252" w="9" h="18"/>
+    <rect id="16" x="531" y="252" w="9" h="18"/>
+    <tile id="18" x="144" y="243"/>
+    <tile id="18" x="306" y="243"/>
+    <tile id="18" x="360" y="243"/>
+    <rect id="0" x="27" y="0" w="18" h="18"/>
+    <rect id="0" x="27" y="27" w="18" h="18"/>
+    <rect id="0" x="27" y="54" w="45" h="45"/>
+    <rect id="0" x="81" y="63" w="36" h="36"/>
+    <rect id="0" x="126" y="63" w="36" h="36"/>
+    <rect id="0" x="171" y="63" w="72" h="45"/>
+    <rect id="0" x="207" y="126" w="36" h="27"/>
+    <rect id="0" x="207" y="171" w="36" h="27"/>
+    <rect id="0" x="198" y="216" w="54" h="9"/>
+    <rect id="0" x="153" y="234" w="153" h="9"/>
+    <rect id="0" x="315" y="234" w="45" h="9"/>
+    <rect id="0" x="369" y="252" w="81" h="27"/>
+    <rect id="0" x="459" y="252" w="72" h="18"/>
+    <rect id="0" x="540" y="252" w="18" h="18"/>
+    <rect id="0" x="315" y="252" w="45" h="27"/>
+    <rect id="0" x="153" y="252" w="153" h="27"/>
+    <rect id="0" x="108" y="252" w="36" h="27"/>
+    <rect id="0" x="81" y="252" w="18" h="27"/>
+    <rect id="0" x="81" y="234" w="18" h="9"/>
+    <rect id="0" x="108" y="234" w="36" h="9"/>
+    <tile id="16" x="450" y="234"/>
+    <tile id="16" x="531" y="234"/>
+    <rect id="0" x="369" y="234" w="81" h="9"/>
+    <rect id="0" x="459" y="234" w="72" h="9"/>
+    <rect id="0" x="540" y="234" w="18" h="9"/>
+  </walls>
+  <floor set="tiles">
+    <tile id="6" x="198" y="99"/>
+    <tile id="8" x="198" y="216"/>
+    <tile id="7" x="243" y="216"/>
+    <tile id="8" x="162" y="225"/>
+    <tile id="6" x="162" y="279"/>
+    <tile id="7" x="45" y="54"/>
+    <tile id="7" x="279" y="225"/>
+    <tile id="5" x="279" y="279"/>
+    <tile id="5" x="387" y="270"/>
+    <tile id="19" x="90" y="36"/>
+    <tile id="20" x="108" y="36"/>
+    <tile id="20" x="99" y="36"/>
+    <tile id="21" x="117" y="36"/>
+    <tile id="19" x="306" y="36"/>
+    <tile id="21" x="315" y="36"/>
+    <rect id="1" x="27" y="99" w="171" h="9"/>
+    <rect id="3" x="54" y="54" w="189" h="9"/>
+    <rect id="4" x="198" y="108" w="9" h="108"/>
+    <rect id="2" x="243" y="63" w="9" h="153"/>
+    <rect id="3" x="171" y="216" w="27" h="9"/>
+    <rect id="3" x="81" y="225" w="81" h="9"/>
+    <rect id="1" x="81" y="279" w="81" h="9"/>
+    <rect id="4" x="72" y="234" w="9" h="45"/>
+    <rect id="1" x="171" y="288" w="108" h="9"/>
+    <rect id="3" x="252" y="216" w="27" h="9"/>
+    <rect id="2" x="45" y="0" w="9" h="54"/>
+    <rect id="4" x="18" y="0" w="9" h="99"/>
+    <rect id="1" x="288" y="279" w="99" h="9"/>
+    <rect id="1" x="396" y="270" w="162" h="9"/>
+    <rect id="0" x="0" y="0" w="18" h="99"/>
+    <rect id="0" x="0" y="99" w="27" h="9"/>
+    <rect id="0" x="0" y="108" w="198" h="108"/>
+    <rect id="0" x="0" y="216" w="171" h="9"/>
+    <rect id="0" x="0" y="225" w="81" h="9"/>
+    <rect id="0" x="0" y="234" w="72" h="45"/>
+    <rect id="0" x="0" y="279" w="81" h="9"/>
+    <rect id="0" x="0" y="288" w="171" h="9"/>
+    <rect id="17" x="0" y="297" w="558" h="9"/>
+    <rect id="0" x="279" y="288" w="279" h="9"/>
+    <rect id="0" x="387" y="279" w="171" h="9"/>
+    <rect id="0" x="0" y="306" w="558" h="90"/>
+    <rect id="16" x="99" y="0" w="9" h="36"/>
+    <rect id="16" x="108" y="0" w="9" h="36"/>
+    <rect id="17" x="126" y="36" w="180" h="9"/>
+    <rect id="0" x="54" y="0" w="45" h="36"/>
+    <rect id="0" x="54" y="36" w="36" h="9"/>
+    <rect id="0" x="117" y="0" w="441" h="36"/>
+    <rect id="0" x="324" y="36" w="234" h="9"/>
+    <rect id="0" x="54" y="45" w="504" h="9"/>
+    <rect id="0" x="243" y="54" w="315" h="9"/>
+    <rect id="0" x="252" y="63" w="306" h="153"/>
+    <rect id="0" x="279" y="216" w="279" h="9"/>
+    <rect id="3" x="288" y="225" w="270" h="9"/>
+  </floor>
+  <decals>
+    <person2 x="90" y="96"/>
+    <blood2 x="94" y="99"/>
+    <person1 x="185" y="283"/>
+    <blood1 x="187" y="288"/>
+    <person2 x="258" y="285"/>
+    <blood4 x="234" y="288"/>
+    <blood2 x="129" y="279"/>
+    <blood3 x="283" y="279"/>
+  </decals>
+  <objects>
+    <roller x="142" y="85" zoneSize="100" health="4" name="roller1"/>
+    <player x="32" y="9" fromArea="7"/>
+    <switch x="369" y="270" onMessage="open" offMessage="close" on="false" name="switch1"/>
+    <door x="486" y="234" height="36" openMessage="open" closeMessage="close" open="false" name="door1"/>
+    <roller x="291" y="265" zoneSize="150" health="4" name="roller3"/>
+    <roller x="144" y="265" zoneSize="150" health="4" name="roller2"/>
+    <roller x="504" y="256" zoneSize="200" health="5" name="roller4"/>
+    <areaConnection x="549" y="234" width="9" height="36" index="9" name=""/>
+    <player x="533" y="255" fromArea="9"/>
+    <board x="212" y="261" text="Wednesday 6:00 PM\nMeeting to analyze the effects of the new AI development algorithms. The main concern is whether they're harmful to the robots." name="board1"/>
+    <computerLog x="180" y="270" text="Log 1\nI'm definitely getting better at Minesweeper, though the boss thinks I'm not spending enough time in research. He's probably right. But speaking of Minesweeper, wouldn't it totally suck if that was real? Seriously, one wrong step and your internal organs are decorating the countryside.\n\nLog 2\nSometimes being a robot would be better; no emotions, no pain... awesome.\n\nLog 3\nIt seems I have a habit of imagining what it would be like to be something else. Well, I wonder what it would be like to be a kitten? Hmmmm...." name="log1"/>
+    <computerLog x="252" y="270" text="Log 1\nMy first impressions after coming to this facility is why is everything white or gray? It feels strange." name="log2"/>
+  </objects>
+</level>

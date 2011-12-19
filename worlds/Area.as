@@ -42,6 +42,13 @@ package worlds
       LIST.push(Area1);
       LIST.push(Area2);
       LIST.push(Area3);
+      LIST.push(Area4);
+      LIST.push(Area5);
+      LIST.push(Area6);
+      LIST.push(Area7);
+      LIST.push(Area8);
+      LIST.push(Area9);
+      LIST.push(Area10);
     }
     
     public static function load(index:uint, from:int = -1):void
@@ -148,6 +155,7 @@ package worlds
       for each (o in data.objects.board) add(Board.fromXML(o));
       for each (o in data.objects.computerLog) add(ComputerLog.fromXML(o));
       for each (o in data.objects.areaConnection) add(AreaConnection.fromXML(o));
+      for each (o in data.objects.end) add(End.fromXML(o));
     }
   }
 }

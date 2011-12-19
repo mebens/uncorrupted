@@ -9,6 +9,9 @@ package entities
     [Embed(source = "../assets/images/door.png")]
     public static const IMAGE:Class;
     
+    [Embed(source = "../assets/sfx/door.mp3")]
+    public static const SFX:Class;
+    
     public static const TIME:Number = 0.25;
     public var minY:int;
     public var maxY:int;
@@ -16,6 +19,7 @@ package entities
     public var closeMessage:String;
     public var moveTween:Tween;
     public var isOpen:Boolean;
+    public var sfx:Sfx = new Sfx(SFX);
     
     public static function fromXML(o:Object):Door
     {
@@ -72,6 +76,7 @@ package entities
       if (moveTween && moveTween.active) moveTween.cancel();
       moveTween = FP.tween(this, { y: minY }, time, { tweener: this, ease: Ease.quadIn, complete: complete });
       isOpen = true;
+      sfx.play(sfxVolume * 0.5);
     }
 
     public function close(complete:Function = null):void
@@ -80,6 +85,7 @@ package entities
       if (moveTween && moveTween.active) moveTween.cancel();
       moveTween = FP.tween(this, { y: maxY }, time, { tweener: this, ease: Ease.quadIn, complete: complete });
       isOpen = false;
+      sfx.play(sfxVolume * 0.5);
     }
   }
 }

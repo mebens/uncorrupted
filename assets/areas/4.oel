@@ -1,0 +1,162 @@
+<level>
+  <width>702</width>
+  <height>216</height>
+  <walls set="tiles">
+    <tile id="18" x="369" y="45"/>
+    <tile id="18" x="432" y="45"/>
+    <tile id="17" x="360" y="45"/>
+    <tile id="17" x="441" y="45"/>
+    <tile id="16" x="432" y="36"/>
+    <tile id="16" x="369" y="36"/>
+    <tile id="21" x="54" y="72"/>
+    <tile id="19" x="18" y="72"/>
+    <tile id="18" x="657" y="45"/>
+    <tile id="16" x="657" y="36"/>
+    <tile id="19" x="18" y="90"/>
+    <tile id="21" x="54" y="90"/>
+    <rect id="17" x="594" y="117" w="18" h="9"/>
+    <rect id="17" x="378" y="45" w="54" h="9"/>
+    <rect id="16" x="369" y="54" w="9" h="54"/>
+    <rect id="16" x="432" y="54" w="9" h="54"/>
+    <rect id="20" x="27" y="72" w="27" h="9"/>
+    <rect id="17" x="594" y="45" w="63" h="9"/>
+    <rect id="17" x="666" y="45" w="36" h="9"/>
+    <rect id="16" x="657" y="54" w="9" h="18"/>
+    <rect id="16" x="657" y="162" w="9" h="36"/>
+    <rect id="16" x="621" y="162" w="9" h="36"/>
+    <rect id="20" x="27" y="90" w="27" h="9"/>
+    <rect id="0" x="0" y="72" w="18" h="9"/>
+    <rect id="0" x="63" y="72" w="54" h="45"/>
+    <rect id="0" x="0" y="81" w="63" h="9"/>
+    <rect id="0" x="0" y="90" w="18" h="9"/>
+    <rect id="0" x="0" y="99" w="63" h="18"/>
+    <rect id="0" x="288" y="54" w="81" h="54"/>
+    <rect id="0" x="378" y="27" w="54" h="18"/>
+    <rect id="0" x="378" y="54" w="54" h="54"/>
+    <rect id="0" x="441" y="54" w="45" h="54"/>
+    <rect id="0" x="558" y="54" w="99" h="63"/>
+    <rect id="0" x="594" y="36" w="63" h="9"/>
+    <rect id="0" x="666" y="36" w="36" h="9"/>
+    <rect id="0" x="666" y="54" w="36" h="18"/>
+    <rect id="0" x="594" y="126" w="27" h="72"/>
+    <rect id="0" x="630" y="162" w="27" h="36"/>
+    <rect id="0" x="666" y="162" w="36" h="36"/>
+    <rect id="0" x="0" y="54" w="117" h="18"/>
+    <rect id="16" x="117" y="63" w="9" h="36"/>
+    <rect id="16" x="171" y="63" w="9" h="36"/>
+    <rect id="16" x="225" y="63" w="9" h="36"/>
+    <rect id="16" x="279" y="63" w="9" h="36"/>
+    <rect id="0" x="126" y="63" w="45" h="36"/>
+    <rect id="0" x="180" y="63" w="45" h="36"/>
+    <rect id="0" x="234" y="63" w="45" h="36"/>
+    <rect id="16" x="486" y="63" w="9" h="36"/>
+    <rect id="16" x="513" y="63" w="9" h="36"/>
+    <rect id="16" x="522" y="63" w="9" h="36"/>
+    <rect id="16" x="549" y="63" w="9" h="36"/>
+    <rect id="0" x="495" y="63" w="18" h="36"/>
+    <rect id="0" x="531" y="63" w="18" h="36"/>
+  </walls>
+  <floor set="tiles">
+    <tile id="6" x="333" y="99"/>
+    <tile id="22" x="387" y="99"/>
+    <tile id="25" x="414" y="99"/>
+    <tile id="5" x="468" y="99"/>
+    <tile id="8" x="351" y="54"/>
+    <tile id="8" x="360" y="36"/>
+    <tile id="8" x="387" y="27"/>
+    <tile id="7" x="414" y="27"/>
+    <tile id="7" x="441" y="36"/>
+    <tile id="7" x="450" y="54"/>
+    <tile id="4" x="351" y="45"/>
+    <tile id="2" x="450" y="45"/>
+    <tile id="6" x="585" y="99"/>
+    <tile id="5" x="612" y="90"/>
+    <tile id="5" x="639" y="72"/>
+    <tile id="8" x="585" y="54"/>
+    <tile id="8" x="594" y="36"/>
+    <tile id="2" x="639" y="81"/>
+    <tile id="6" x="594" y="180"/>
+    <tile id="6" x="612" y="189"/>
+    <tile id="7" x="612" y="153"/>
+    <tile id="1" x="603" y="189"/>
+    <tile id="4" x="585" y="45"/>
+    <tile id="19" x="117" y="117"/>
+    <tile id="21" x="153" y="117"/>
+    <tile id="17" x="108" y="117"/>
+    <tile id="19" x="90" y="117"/>
+    <tile id="21" x="99" y="117"/>
+    <tile id="5" x="72" y="108"/>
+    <tile id="5" x="90" y="99"/>
+    <tile id="1" x="81" y="108"/>
+    <tile id="7" x="72" y="54"/>
+    <tile id="19" x="90" y="45"/>
+    <tile id="19" x="315" y="45"/>
+    <tile id="21" x="99" y="45"/>
+    <tile id="21" x="324" y="45"/>
+    <rect id="1" x="99" y="99" w="234" h="9"/>
+    <rect id="23" x="396" y="99" w="18" h="9"/>
+    <rect id="1" x="342" y="108" w="126" h="9"/>
+    <rect id="3" x="369" y="27" w="18" h="9"/>
+    <rect id="3" x="396" y="18" w="18" h="9"/>
+    <rect id="3" x="423" y="27" w="18" h="9"/>
+    <rect id="3" x="603" y="27" w="99" h="9"/>
+    <rect id="1" x="648" y="72" w="54" h="9"/>
+    <rect id="1" x="621" y="90" w="18" h="9"/>
+    <rect id="2" x="612" y="99" w="9" h="54"/>
+    <rect id="1" x="477" y="99" w="108" h="9"/>
+    <rect id="4" x="585" y="108" w="9" h="72"/>
+    <rect id="3" x="621" y="153" w="81" h="9"/>
+    <rect id="1" x="621" y="198" w="81" h="9"/>
+    <rect id="0" x="648" y="81" w="54" h="9"/>
+    <rect id="0" x="639" y="90" w="63" h="9"/>
+    <rect id="20" x="126" y="117" w="27" h="9"/>
+    <rect id="0" x="90" y="108" w="252" h="9"/>
+    <rect id="0" x="468" y="108" w="117" h="9"/>
+    <rect id="0" x="72" y="117" w="18" h="9"/>
+    <rect id="0" x="0" y="126" w="585" h="90"/>
+    <rect id="0" x="585" y="180" w="9" h="36"/>
+    <rect id="0" x="594" y="189" w="9" h="27"/>
+    <rect id="0" x="603" y="198" w="18" h="18"/>
+    <rect id="0" x="621" y="207" w="81" h="9"/>
+    <rect id="0" x="0" y="0" w="702" h="18"/>
+    <rect id="0" x="414" y="18" w="288" h="9"/>
+    <rect id="0" x="441" y="27" w="162" h="9"/>
+    <rect id="0" x="450" y="36" w="144" h="9"/>
+    <rect id="0" x="459" y="45" w="126" h="9"/>
+    <rect id="0" x="0" y="18" w="396" h="9"/>
+    <rect id="0" x="0" y="27" w="369" h="9"/>
+    <rect id="0" x="0" y="36" w="360" h="9"/>
+    <rect id="1" x="0" y="117" w="72" h="9"/>
+    <rect id="3" x="0" y="45" w="72" h="9"/>
+    <rect id="0" x="621" y="126" w="81" h="27"/>
+    <rect id="0" x="621" y="99" w="81" h="18"/>
+    <rect id="3" x="81" y="54" w="270" h="9"/>
+    <rect id="3" x="459" y="54" w="126" h="9"/>
+    <rect id="17" x="108" y="45" w="207" h="9"/>
+    <rect id="0" x="72" y="45" w="18" h="9"/>
+    <rect id="0" x="333" y="45" w="18" h="9"/>
+    <tile id="21" x="576" y="117"/>
+    <tile id="19" x="567" y="117"/>
+    <tile id="19" x="621" y="117"/>
+    <tile id="21" x="630" y="117"/>
+    <rect id="17" x="639" y="117" w="63" h="9"/>
+    <rect id="17" x="162" y="117" w="405" h="9"/>
+  </floor>
+  <decals>
+    <blood1 x="146" y="99"/>
+    <person2 x="362" y="105"/>
+    <blood4 x="367" y="108"/>
+  </decals>
+  <objects>
+    <computerLog x="396" y="90" text="The algorithms have turned the robots into senseless killers! Gotta run or-" name="log1"/>
+    <note x="346" y="106" text="I demand to know who is shooting arrows in absolutely everyone's knees! Why hasn't the government done anything about this? It sounds very serious to me!\n\n-- Mr. Adventure" name="note1"/>
+    <roller x="566" y="85" zoneSize="100" health="2" name="roller2"/>
+    <areaConnection x="0" y="54" width="9" height="63" index="2" name=""/>
+    <player x="17" y="102" fromArea="2"/>
+    <areaConnection x="693" y="36" width="9" height="36" index="4" name=""/>
+    <player x="677" y="57" fromArea="4"/>
+    <areaConnection x="693" y="162" width="9" height="36" index="5" name=""/>
+    <player x="678" y="183" fromArea="5"/>
+    <roller x="301" y="85" zoneSize="150" health="4" name=""/>
+  </objects>
+</level>

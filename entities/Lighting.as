@@ -12,8 +12,13 @@ package entities
     [Embed(source = "../assets/images/light.png")]
     public static const LIGHT:Class;
     
+    [Embed(source = "../assets/images/end-light.png")]
+    public static const END_LIGHT:Class;
+    
     public static var id:Lighting;
-    public static var image:Image;
+    public static var image:Image = new Image(LIGHT);
+    public static var endImage:Image = new Image(END_LIGHT);
+    
     public var canvas:BitmapData;
     public var size:Rectangle;
     public var lights:Vector.<Light> = new Vector.<Light>();
@@ -24,8 +29,8 @@ package entities
       layer = -1;
       canvas = new BitmapData(FP.width, FP.height, false, 0xFFFFFF);
       size = new Rectangle(0, 0, FP.width, FP.height);
-      image = new Image(LIGHT);
       image.centerOrigin();
+      endImage.originX = endImage.width;
     }
     
     public function add(l:Light):void
@@ -48,9 +53,16 @@ package entities
       
       for (var i:uint; i < lights.length; i++)
       {
-        image.scale = lights[i].scale;
-        image.alpha = lights[i].alpha;
-        image.render(canvas, lights[i].point, FP.camera);
+        if (lights[i].end)
+        {
+          endImage.render(canvas, lights[i].point, FP.camera);
+        }
+        else
+        {
+          image.scale = lights[i].scale;
+          image.alpha = lights[i].alpha;
+          image.render(canvas, lights[i].point, FP.camera);
+        }
       }
       
       var img:Image = new Image(canvas);

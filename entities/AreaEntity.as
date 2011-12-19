@@ -53,7 +53,7 @@ package entities
       if (o.@name) name = o.@name;
       return this;
     }
-    
+        
     public function loadFromData(obj:Object):void
     {
       
@@ -67,6 +67,11 @@ package entities
     public function get area():Area
     {
       return world as Area;
+    }
+    
+    public function get sfxVolume():Number
+    {
+      return FP.scale(FP.distance(Player.id.x, Player.id.y, x, y) / 150, 0, 1, 1, 0);
     }
     
     private function saveData():void

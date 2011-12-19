@@ -4,6 +4,7 @@ package entities
   import flash.geom.Rectangle;
   import net.flashpunk.*;
   import net.flashpunk.graphics.Emitter;
+  import net.flashpunk.graphics.Image;
   import net.flashpunk.graphics.Spritemap;
   import net.flashpunk.utils.Ease;
   
@@ -15,15 +16,26 @@ package entities
     [Embed(source = "../assets/images/smoke.png")]
     public static const SMOKE:Class;
     
-    public static const ACCELERATION:Number = 800;
+    [Embed(source = "../assets/sfx/roller-chug.mp3")]
+    public static const CHUG_SFX:Class;
+    
+    [Embed(source = "../assets/sfx/roller-explode.mp3")]
+    public static const EXPLODE_SFX:Class;
+    
+    public static const ACCELERATION:Number = 500;
     public static const MAX_FALL:Number = 500;
+    public static const CHUG_DELAY:Number = 0.15;
     
     public var map:Spritemap;
     public var emitter:Emitter;
+    public var deadImage:Image;
+    public var chugSfx:Sfx = new Sfx(CHUG_SFX, chugComplete);
+    public var explodeSfx:Sfx = new Sfx(EXPLODE_SFX);
+    
     public var zone:Rectangle;
     public var vel:Point = new Point;
     public var attacking:Boolean = false;
-    public var smokeOnDeath:Boolean = true;
+    public var deathEffects:Boolean = true;
     
     public static function fromXML(o:Object):Roller
     {
@@ -35,16 +47,17 @@ package entities
       super(x, y, health);
       setHitbox(16, 14);
       zone = new Rectangle(x + width / 2 - zoneSize, y + height / 2 - zoneSize, zoneSize * 2, zoneSize * 2);
+      deadImage = new Image(IMAGE, new Rectangle(width * 6, 0, width, height)); // I can't find any other way to fix this bug
       
-      map = new Spritemap(IMAGE, width, height)
-      map.add("move", [0, 1, 2, 3, 4, 5], 12);
-      map.play("move");
-      addGraphic(map);
+      map = new Spritemap(IMAGE, width, height);
+      map.add("move", [5, 4, 3, 3, 3, 3, 2, 1, 0], 12);
+      map.add("dead", [6], 1);
+      graphic = map;
     }
     
     override public function update():void
     {
-      if (area.paused) return;
+      if (area.paused || dead) return;
       var p:Player = Player.id;
       
       if (attacking)
@@ -67,12 +80,12 @@ package entities
           x = area.width - width;
         }
         
-        map.active = dir != 0;
         if (dir != 0) map.flipped = dir == 1;
+        chugSfx.volume = sfxVolume;
       }
       else if (p.collideRect(p.x, p.y, zone.x, zone.y, zone.width, zone.height))
       {
-        attacking = true;
+        attack();
       }
     }
     
@@ -88,16 +101,24 @@ package entities
       return true;
     }
     
+    override public function hit():void
+    {
+      super.hit();
+      attack();
+    }
+    
     override public function die():void
     {
       dead = true;
       type = "solid";
       active = false;
-      map.setFrame(0, 1);
+      graphic = deadImage;
       setHitbox(14, 13, -2, -1);
+      chugSfx.stop();
       
-      if (smokeOnDeath)
+      if (deathEffects)
       {
+        explodeSfx.play(sfxVolume);
         emitter = new Emitter(SMOKE);
         emitter.x = width / 2;
         emitter.y = height - 2;
@@ -106,7 +127,7 @@ package entities
         emitter.setGravity("burst", 0.1, 0.2);
         emitter.setMotion("burst", 20, 15, 0.5, 140, 20, 0.5);
         addGraphic(emitter);
-        for (var i:uint = 0; i < 60 + FP.rand(11); i++) emitter.emit("burst", 0, 0);
+        for (var i:uint = 0; i < 60 + FP.rand(11); i++) emitter.emit("burst", 0, 0);        
       }
     }
     
@@ -114,7 +135,7 @@ package entities
     {
       if (obj.dead)
       {
-        smokeOnDeath = false;
+        deathEffects = false;
         x = obj.x;
         y = obj.y;
         die();
@@ -124,6 +145,25 @@ package entities
     override public function generateData():Object
     {
       return { dead: dead, x: x, y: y };
+    }
+    
+    private function attack():void
+    {
+      if (dead) return;
+      playChug();
+      attacking = true;
+      map.play("move");
+    }
+    
+    private function playChug():void
+    {
+      if (dead) return;
+      chugSfx.play(sfxVolume);
+    }
+    
+    private function chugComplete():void
+    {
+      FP.alarm(CHUG_DELAY, playChug, Tween.ONESHOT, this);
     }
   }
 }

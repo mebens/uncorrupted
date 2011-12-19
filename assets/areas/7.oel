@@ -1,0 +1,44 @@
+<level>
+  <width>315</width>
+  <height>216</height>
+  <walls set="tiles">
+    <rect id="16" x="36" y="63" w="9" h="36"/>
+    <rect id="16" x="117" y="63" w="9" h="36"/>
+    <rect id="16" x="189" y="63" w="9" h="36"/>
+    <rect id="16" x="261" y="63" w="9" h="36"/>
+    <rect id="0" x="0" y="63" w="36" h="36"/>
+    <rect id="0" x="45" y="63" w="72" h="36"/>
+    <rect id="0" x="126" y="63" w="63" h="36"/>
+    <rect id="0" x="198" y="63" w="63" h="36"/>
+    <rect id="0" x="270" y="63" w="45" h="36"/>
+  </walls>
+  <floor set="tiles">
+    <rect id="1" x="0" y="99" w="324" h="9"/>
+    <rect id="17" x="0" y="9" w="315" h="9"/>
+    <rect id="3" x="0" y="54" w="315" h="9"/>
+    <rect id="17" x="0" y="36" w="315" h="9"/>
+    <rect id="0" x="0" y="45" w="315" h="9"/>
+    <rect id="0" x="0" y="18" w="315" h="18"/>
+    <rect id="0" x="0" y="0" w="315" h="9"/>
+    <rect id="17" x="0" y="126" w="315" h="9"/>
+    <rect id="17" x="0" y="162" w="315" h="9"/>
+    <rect id="0" x="0" y="108" w="315" h="18"/>
+    <rect id="0" x="0" y="135" w="315" h="27"/>
+    <rect id="0" x="0" y="171" w="315" h="45"/>
+  </floor>
+  <objects>
+    <switch x="63" y="90" onMessage="open1" offMessage="close1" on="false" name="switch1"/>
+    <door x="81" y="63" height="36" openMessage="open1" closeMessage="close1" open="false" name="door1"/>
+    <areaConnection x="0" y="63" width="9" height="37" index="5" name=""/>
+    <player x="14" y="84" fromArea="5"/>
+    <roller x="101" y="85" zoneSize="150" health="3" name="roller1"/>
+    <door x="153" y="63" height="36" openMessage="open2" closeMessage="close2" open="false" name="door2"/>
+    <switch x="135" y="90" onMessage="open2" offMessage="close2" on="false" name="switch2"/>
+    <roller x="173" y="85" zoneSize="150" health="4" name="roller2"/>
+    <switch x="207" y="90" onMessage="open3" offMessage="close3" on="false" name="switch3"/>
+    <door x="225" y="63" height="36" openMessage="open3" closeMessage="close3" open="false" name="door3"/>
+    <areaConnection x="306" y="63" width="9" height="37" index="7" name=""/>
+    <roller x="245" y="85" zoneSize="150" health="4" name="roller3"/>
+    <player x="292" y="84" fromArea="7"/>
+  </objects>
+</level>

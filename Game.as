@@ -11,17 +11,22 @@ package
     [Embed(source = "assets/images/tiles.png")]
     public static const TILES:Class;
     
+    [Embed(source = "assets/sfx/bg.mp3")]
+    public static const BG_SFX:Class;
+    
     public static const TILE_SIZE:uint = 9;
     public static const GRAVITY:Number = 700;
     public static const FRICTION:Number = 0.82;
+    
+    public static var bgSfx:Sfx = new Sfx(BG_SFX);
     
     public function Game()
     {
       super(300, 200);
       FP.screen.scale = 2;
       FP.screen.color = 0x000000;
-      FP.console.enable();
       Text.size = 8;
+      bgSfx.loop();
       
       Input.define("left", Key.LEFT, Key.A);
       Input.define("right", Key.RIGHT, Key.D);
@@ -34,12 +39,6 @@ package
     {
       Area.init();
       Area.load(0);
-    }
-    
-    override public function update():void
-    {
-      super.update();
-      if (Input.pressed(Key.Q)) FP.console.visible = !FP.console.visible;
     }
   }
 }

@@ -9,10 +9,14 @@ package entities
     [Embed(source = "../assets/images/switch.png")]
     public static const IMAGE:Class;
     
+    [Embed(source = "../assets/sfx/switch.mp3")]
+    public static const SFX:Class;
+    
     public var map:Spritemap;
     public var onMessage:String;
     public var offMessage:String;
     public var on:Boolean;
+    public var sfx:Sfx = new Sfx(SFX);
     
     public static function fromXML(o:Object):Switch
     {
@@ -44,7 +48,8 @@ package entities
         {
           on = !on;
           map.setFrame(on ? 0 : 1);
-
+          sfx.play();
+          
           if (on && onMessage)
           {
             area.sendMessage(onMessage);

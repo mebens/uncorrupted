@@ -1,0 +1,150 @@
+<level>
+  <width>486</width>
+  <height>396</height>
+  <walls set="tiles">
+    <tile id="19" x="234" y="225"/>
+    <tile id="20" x="243" y="225"/>
+    <tile id="21" x="252" y="225"/>
+    <tile id="19" x="234" y="270"/>
+    <tile id="20" x="243" y="270"/>
+    <tile id="21" x="252" y="270"/>
+    <tile id="18" x="243" y="27"/>
+    <tile id="18" x="243" y="63"/>
+    <tile id="18" x="243" y="108"/>
+    <tile id="18" x="243" y="144"/>
+    <tile id="18" x="243" y="306"/>
+    <tile id="18" x="396" y="306"/>
+    <tile id="16" x="396" y="297"/>
+    <tile id="18" x="468" y="306"/>
+    <tile id="16" x="468" y="297"/>
+    <tile id="17" x="477" y="306"/>
+    <tile id="0" x="477" y="297"/>
+    <rect id="16" x="36" y="162" w="9" h="36"/>
+    <rect id="16" x="72" y="162" w="9" h="36"/>
+    <rect id="16" x="108" y="162" w="9" h="36"/>
+    <rect id="16" x="144" y="162" w="9" h="36"/>
+    <rect id="16" x="180" y="162" w="9" h="36"/>
+    <rect id="17" x="207" y="225" w="27" h="9"/>
+    <rect id="17" x="261" y="225" w="27" h="9"/>
+    <rect id="17" x="207" y="270" w="27" h="9"/>
+    <rect id="17" x="261" y="270" w="27" h="9"/>
+    <rect id="16" x="243" y="0" w="9" h="27"/>
+    <rect id="16" x="243" y="36" w="9" h="27"/>
+    <rect id="16" x="243" y="72" w="9" h="36"/>
+    <rect id="16" x="243" y="117" w="9" h="27"/>
+    <rect id="16" x="243" y="153" w="9" h="72"/>
+    <rect id="17" x="207" y="144" w="36" h="9"/>
+    <rect id="17" x="252" y="144" w="36" h="9"/>
+    <rect id="17" x="252" y="108" w="27" h="9"/>
+    <rect id="17" x="216" y="108" w="27" h="9"/>
+    <rect id="17" x="225" y="63" w="18" h="9"/>
+    <rect id="17" x="252" y="63" w="18" h="9"/>
+    <rect id="17" x="252" y="27" w="18" h="9"/>
+    <rect id="17" x="225" y="27" w="18" h="9"/>
+    <rect id="16" x="243" y="234" w="9" h="36"/>
+    <rect id="17" x="207" y="306" w="36" h="9"/>
+    <rect id="16" x="243" y="279" w="9" h="27"/>
+    <rect id="16" x="243" y="315" w="9" h="27"/>
+    <rect id="17" x="252" y="306" w="144" h="9"/>
+    <rect id="16" x="396" y="315" w="9" h="18"/>
+    <rect id="17" x="405" y="306" w="63" h="9"/>
+    <rect id="16" x="468" y="315" w="9" h="18"/>
+    <rect id="0" x="225" y="0" w="18" h="27"/>
+    <rect id="0" x="252" y="0" w="18" h="27"/>
+    <rect id="0" x="225" y="36" w="18" h="27"/>
+    <rect id="0" x="252" y="36" w="18" h="27"/>
+    <rect id="0" x="216" y="72" w="27" h="36"/>
+    <rect id="0" x="252" y="72" w="27" h="36"/>
+    <rect id="0" x="207" y="117" w="36" h="27"/>
+    <rect id="0" x="252" y="117" w="36" h="27"/>
+    <rect id="0" x="189" y="153" w="54" h="72"/>
+    <rect id="0" x="252" y="153" w="36" h="72"/>
+    <rect id="0" x="153" y="162" w="27" h="36"/>
+    <rect id="0" x="117" y="162" w="27" h="36"/>
+    <rect id="0" x="81" y="162" w="27" h="36"/>
+    <rect id="0" x="45" y="162" w="27" h="36"/>
+    <rect id="0" x="0" y="162" w="36" h="36"/>
+    <rect id="0" x="207" y="234" w="36" h="36"/>
+    <rect id="0" x="252" y="234" w="36" h="36"/>
+    <rect id="0" x="207" y="279" w="36" h="27"/>
+    <rect id="0" x="207" y="315" w="36" h="27"/>
+    <rect id="0" x="252" y="279" w="45" h="27"/>
+    <rect id="0" x="297" y="297" w="99" h="9"/>
+    <rect id="0" x="405" y="297" w="63" h="9"/>
+    <rect id="0" x="477" y="315" w="9" h="18"/>
+    <rect id="0" x="405" y="315" w="63" h="18"/>
+    <rect id="0" x="252" y="315" w="144" h="27"/>
+  </walls>
+  <floor set="tiles">
+    <tile id="8" x="216" y="90"/>
+    <tile id="8" x="207" y="126"/>
+    <tile id="7" x="270" y="90"/>
+    <tile id="7" x="279" y="126"/>
+    <tile id="8" x="198" y="153"/>
+    <tile id="6" x="198" y="198"/>
+    <tile id="7" x="288" y="288"/>
+    <tile id="6" x="207" y="324"/>
+    <tile id="4" x="207" y="333"/>
+    <tile id="5" x="324" y="333"/>
+    <tile id="25" x="450" y="324"/>
+    <tile id="22" x="441" y="324"/>
+    <tile id="19" x="297" y="36"/>
+    <tile id="21" x="324" y="36"/>
+    <tile id="19" x="351" y="279"/>
+    <tile id="21" x="432" y="279"/>
+    <tile id="19" x="27" y="225"/>
+    <tile id="21" x="36" y="225"/>
+    <rect id="2" x="270" y="0" w="9" h="54"/>
+    <rect id="4" x="216" y="0" w="9" h="90"/>
+    <rect id="4" x="207" y="99" w="9" h="27"/>
+    <rect id="4" x="198" y="135" w="9" h="18"/>
+    <rect id="3" x="0" y="153" w="198" h="9"/>
+    <rect id="2" x="279" y="99" w="9" h="27"/>
+    <rect id="2" x="270" y="54" w="9" h="36"/>
+    <rect id="1" x="0" y="198" w="198" h="9"/>
+    <rect id="2" x="288" y="135" w="9" h="153"/>
+    <rect id="4" x="198" y="207" w="9" h="117"/>
+    <rect id="1" x="216" y="342" w="108" h="9"/>
+    <rect id="3" x="297" y="288" w="189" h="9"/>
+    <rect id="1" x="333" y="333" w="153" h="9"/>
+    <rect id="0" x="0" y="0" w="216" h="99"/>
+    <rect id="0" x="0" y="99" w="207" h="36"/>
+    <rect id="0" x="0" y="135" w="198" h="18"/>
+    <rect id="20" x="306" y="36" w="18" h="9"/>
+    <rect id="17" x="333" y="36" w="153" h="9"/>
+    <rect id="20" x="360" y="279" w="72" h="9"/>
+    <rect id="17" x="0" y="225" w="27" h="9"/>
+    <rect id="0" x="0" y="207" w="198" h="18"/>
+    <rect id="0" x="45" y="225" w="153" h="9"/>
+    <rect id="0" x="0" y="234" w="198" h="162"/>
+    <rect id="0" x="324" y="342" w="162" h="9"/>
+    <rect id="0" x="198" y="351" w="288" h="45"/>
+    <rect id="0" x="198" y="342" w="18" h="9"/>
+    <rect id="0" x="198" y="324" w="9" h="18"/>
+    <rect id="0" x="279" y="0" w="207" h="36"/>
+    <rect id="0" x="279" y="36" w="18" h="9"/>
+    <rect id="0" x="279" y="45" w="207" h="54"/>
+    <rect id="0" x="288" y="99" w="198" h="36"/>
+    <rect id="0" x="297" y="135" w="189" h="144"/>
+    <rect id="0" x="441" y="279" w="45" h="9"/>
+    <rect id="0" x="297" y="279" w="54" h="9"/>
+  </floor>
+  <decals>
+    <person3 x="356" y="330"/>
+    <person1 x="460" y="328"/>
+    <blood1 x="383" y="333"/>
+    <blood3 x="434" y="333"/>
+    <blood3 x="79" y="198"/>
+  </decals>
+  <objects>
+    <areaConnection x="0" y="162" width="9" height="36" index="3" name=""/>
+    <player x="16" y="183" fromArea="3"/>
+    <player x="244" y="6" fromArea="4"/>
+    <roller x="178" y="184" zoneSize="150" health="2" name="roller1"/>
+    <roller x="411" y="319" zoneSize="150" health="4" name="roller2"/>
+    <note x="444" y="322" text="&quot;A man should look for what is, and not for what he thinks should be.&quot; - Albert Einstein" name="note1"/>
+    <computerLog x="369" y="315" text="The robots are spreading some kind of virus, probably allowed somehow by the new algorithms. F97 is currently shut down and locked away, so it shouldn't contract anything. Anyway, I need to see what I can do to stop this impending crisis." name="log1"/>
+    <areaConnection x="477" y="297" width="9" height="36" index="6" name=""/>
+    <player x="464" y="318" fromArea="6"/>
+  </objects>
+</level>

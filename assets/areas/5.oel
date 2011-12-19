@@ -1,0 +1,119 @@
+<level>
+  <width>396</width>
+  <height>225</height>
+  <walls set="tiles">
+    <rect id="16" x="36" y="36" w="9" h="36"/>
+    <rect id="16" x="63" y="36" w="9" h="36"/>
+    <rect id="16" x="90" y="36" w="9" h="36"/>
+    <rect id="16" x="198" y="36" w="9" h="36"/>
+    <rect id="16" x="153" y="36" w="9" h="36"/>
+    <rect id="17" x="225" y="117" w="18" h="9"/>
+    <tile id="18" x="243" y="18"/>
+    <tile id="18" x="243" y="117"/>
+    <rect id="16" x="243" y="0" w="9" h="18"/>
+    <rect id="16" x="243" y="27" w="9" h="90"/>
+    <rect id="16" x="243" y="126" w="9" h="99"/>
+    <rect id="17" x="225" y="18" w="18" h="9"/>
+    <rect id="17" x="252" y="18" w="108" h="9"/>
+    <rect id="17" x="252" y="117" w="99" h="9"/>
+    <rect id="16" x="369" y="36" w="9" h="36"/>
+    <tile id="19" x="288" y="171"/>
+    <rect id="20" x="297" y="171" w="18" h="9"/>
+    <tile id="21" x="315" y="171"/>
+    <rect id="17" x="324" y="171" w="27" h="9"/>
+    <rect id="0" x="0" y="36" w="36" h="36"/>
+    <rect id="0" x="45" y="36" w="18" h="36"/>
+    <rect id="0" x="72" y="36" w="18" h="36"/>
+    <rect id="0" x="99" y="36" w="54" h="36"/>
+    <rect id="0" x="162" y="36" w="36" h="36"/>
+    <rect id="0" x="207" y="27" w="36" h="90"/>
+    <rect id="0" x="225" y="126" w="18" h="99"/>
+    <rect id="0" x="252" y="126" w="99" h="45"/>
+    <rect id="0" x="252" y="171" w="36" h="9"/>
+    <rect id="0" x="252" y="180" w="99" h="18"/>
+    <rect id="0" x="252" y="198" w="27" h="27"/>
+    <rect id="0" x="252" y="27" w="117" h="90"/>
+    <rect id="0" x="378" y="36" w="9" h="36"/>
+    <rect id="0" x="252" y="0" w="99" h="18"/>
+    <rect id="0" x="225" y="0" w="18" h="18"/>
+  </walls>
+  <floor set="tiles">
+    <tile id="6" x="216" y="72"/>
+    <tile id="8" x="216" y="27"/>
+    <tile id="8" x="225" y="0"/>
+    <tile id="15" x="261" y="72"/>
+    <tile id="15" x="306" y="72"/>
+    <tile id="5" x="351" y="72"/>
+    <rect id="1" x="360" y="72" w="27" h="9"/>
+    <rect id="2" x="387" y="36" w="9" h="36"/>
+    <tile id="7" x="360" y="27"/>
+    <tile id="7" x="351" y="9"/>
+    <tile id="2" x="360" y="18"/>
+    <tile id="2" x="351" y="0"/>
+    <rect id="3" x="369" y="27" w="18" h="9"/>
+    <rect id="2" x="351" y="81" w="9" h="117"/>
+    <rect id="1" x="279" y="198" w="72" h="9"/>
+    <tile id="5" x="270" y="198"/>
+    <rect id="4" x="216" y="81" w="9" h="144"/>
+    <rect id="2" x="270" y="207" w="9" h="18"/>
+    <rect id="3" x="0" y="27" w="216" h="9"/>
+    <rect id="1" x="0" y="72" w="216" h="9"/>
+    <rect id="4" x="216" y="9" w="9" h="18"/>
+    <tile id="19" x="126" y="99"/>
+    <tile id="20" x="135" y="99"/>
+    <tile id="21" x="144" y="99"/>
+    <tile id="19" x="180" y="99"/>
+    <tile id="20" x="189" y="99"/>
+    <tile id="21" x="198" y="99"/>
+    <tile id="21" x="198" y="135"/>
+    <tile id="20" x="189" y="135"/>
+    <tile id="19" x="180" y="135"/>
+    <tile id="19" x="126" y="135"/>
+    <tile id="20" x="135" y="135"/>
+    <tile id="21" x="144" y="135"/>
+    <rect id="16" x="135" y="108" w="9" h="27"/>
+    <rect id="16" x="189" y="108" w="9" h="27"/>
+    <rect id="17" x="153" y="99" w="27" h="9"/>
+    <rect id="17" x="153" y="135" w="27" h="9"/>
+    <tile id="21" x="198" y="198"/>
+    <rect id="19" x="171" y="198" w="27" h="9"/>
+    <tile id="19" x="162" y="198"/>
+    <rect id="17" x="0" y="198" w="162" h="9"/>
+    <rect id="17" x="342" y="216" w="54" h="9"/>
+    <tile id="19" x="324" y="216"/>
+    <tile id="21" x="333" y="216"/>
+    <rect id="0" x="0" y="81" w="216" h="18"/>
+    <rect id="0" x="144" y="108" w="45" h="27"/>
+    <rect id="0" x="0" y="99" w="126" h="9"/>
+    <rect id="0" x="0" y="108" w="135" h="27"/>
+    <rect id="0" x="0" y="135" w="126" h="9"/>
+    <rect id="0" x="0" y="144" w="216" h="54"/>
+    <rect id="0" x="207" y="99" w="9" h="45"/>
+    <rect id="0" x="198" y="108" w="9" h="27"/>
+    <tile id="0" x="207" y="198"/>
+    <rect id="0" x="0" y="207" w="216" h="18"/>
+    <rect id="0" x="0" y="0" w="225" h="9"/>
+    <rect id="0" x="0" y="9" w="216" h="18"/>
+    <rect id="0" x="360" y="0" w="36" h="18"/>
+    <rect id="0" x="369" y="18" w="27" h="9"/>
+    <tile id="0" x="387" y="27"/>
+    <tile id="0" x="387" y="72"/>
+    <rect id="0" x="360" y="81" w="36" h="135"/>
+    <tile id="0" x="351" y="198"/>
+    <rect id="0" x="279" y="207" w="81" h="9"/>
+    <rect id="0" x="279" y="216" w="45" h="9"/>
+  </floor>
+  <decals>
+    <person3 x="368" y="69"/>
+  </decals>
+  <objects>
+    <note x="47" y="71" text="Order #003692:\n4000 Transistors\n200 Red LEDs\nAMK27 Motherboard" name="note1"/>
+    <computerLog x="171" y="51" text="AI growth and development is a very fascinating field of study, one that's taking up quite of a bit of my time lately. The only bad thing is that things can go pretty bad with real robots. Two years ago, for instance, we lost an employee to a robot gone wild. Nevertheless, I believe that things are getting safer all the time.\n\n-- Roland" name="log1"/>
+    <roller x="162" y="58" zoneSize="200" health="4" name="roller1"/>
+    <roller x="328" y="184" zoneSize="80" health="1" name="roller2"/>
+    <areaConnection x="225" y="216" width="45" height="8" index="5" name=""/>
+    <areaConnection x="0" y="36" width="9" height="36" index="3" name=""/>
+    <player x="15" y="57" fromArea="3"/>
+    <note x="355" y="70" text="Robum Dare\n\nOn March 10-12, create a robot on your own in 48 hours or with colleagues in 72 hours. Your robot will be voted by your colleagues for three weeks after the event is held.\n\nGood luck, and may the best engineer win!" name="note2"/>
+  </objects>
+</level>

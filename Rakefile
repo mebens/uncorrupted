@@ -4,7 +4,7 @@ task :default do
 end
 
 task :build do
-  puts `mxmlc -o _bin/game.swf -source-path="#{Dir.pwd}" -default-size=600,420 "#{Dir.pwd}/Game.as"`
+  puts `mxmlc -o _bin/game.swf -source-path="#{Dir.pwd}" -default-size=600,400 "#{Dir.pwd}/Game.as"`
 end
 
 task :play do
